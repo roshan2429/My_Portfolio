@@ -22,6 +22,18 @@ document.getElementById('github-icon').addEventListener('click', function() {
 document.getElementById('linkedin-icon').addEventListener('click', function() {
     alert('Website is under construction. This functionality will be added soon!');
 });
+document.getElementById('fb').addEventListener('click', function() {
+    alert('Website is under construction. This functionality will be added soon!');
+});
+document.getElementById('ins').addEventListener('click', function() {
+    alert('Website is under construction. This functionality will be added soon!');
+});
+document.getElementById('tw').addEventListener('click', function() {
+    alert('Website is under construction. This functionality will be added soon!');
+});
+document.getElementById('first-contact').addEventListener('click', function() {
+    alert('Website is under construction. This functionality will be added soon!');
+});
 
 
 /*==================== REMOVE MENU MOBILE ====================*/
