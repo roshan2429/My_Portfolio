@@ -11,6 +11,19 @@ const showMenu = (toggleId, navId) =>{
 }
 showMenu('nav-toggle','nav-menu')
 
+document.getElementById('contact-button').addEventListener('click', function() {
+    alert('Website is under construction. This functionality will be added soon!');
+});
+
+document.getElementById('github-icon').addEventListener('click', function() {
+    alert('Website is under construction. This functionality will be added soon!');
+});
+
+document.getElementById('linkedin-icon').addEventListener('click', function() {
+    alert('Website is under construction. This functionality will be added soon!');
+});
+
+
 /*==================== REMOVE MENU MOBILE ====================*/
 const navLink = document.querySelectorAll('.nav__link')
 
