@@ -15,12 +15,20 @@ document.getElementById('contact-button').addEventListener('click', function() {
     alert('Website is under construction. This functionality will be added soon!');
 });
 
+// document.getElementById('github-icon').addEventListener('click', function() {
+//     alert('Website is under construction. This functionality will be added soon!');
+// });
+
+// document.getElementById('linkedin-icon').addEventListener('click', function() {
+//     alert('Website is under construction. This functionality will be added soon!');
+// });
+
 document.getElementById('github-icon').addEventListener('click', function() {
-    alert('Website is under construction. This functionality will be added soon!');
+    window.open('https://roshan2429.github.io/My_Portfolio/', '_blank');
 });
 
 document.getElementById('linkedin-icon').addEventListener('click', function() {
-    alert('Website is under construction. This functionality will be added soon!');
+    window.open('https://www.linkedin.com/in/roshan-hyalij-3488381a0/', '_blank');
 });
 document.getElementById('fb').addEventListener('click', function() {
     alert('Website is under construction. This functionality will be added soon!');
