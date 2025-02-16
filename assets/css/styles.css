@@ -485,3 +485,73 @@ img {
     width: 450px;
   }
 }
+
+/*===== EXPERIENCE =====*/
+.experience__container {
+  row-gap: 2rem;
+}
+
+.experience__entry {
+  margin-bottom: 3rem;
+}
+
+.experience__title {
+  font-size: 1.25rem;
+  color: var(--first-color);
+  margin-bottom: 0.25rem;
+}
+
+.experience__date {
+  font-size: 0.875rem;
+  color: var(--second-color);
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.experience__company {
+  font-size: 0.937rem;
+  color: #666;
+}
+
+/*===== PROJECTS =====*/
+.projects__container {
+  row-gap: 2rem;
+}
+
+.project__item {
+  margin-bottom: 3rem;
+}
+
+.project__title {
+  font-size: 1.25rem;
+  color: var(--first-color);
+  margin-bottom: 0.5rem;
+}
+
+.project__date {
+  font-size: 0.875rem;
+  color: var(--second-color);
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.project__description li {
+  position: relative;
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+}
+
+.project__description li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--first-color);
+}
+
+@media screen and (min-width: 768px) {
+  .experience__container,
+  .projects__container {
+      max-width: 700px;
+      margin: 0 auto;
+  }
+}
